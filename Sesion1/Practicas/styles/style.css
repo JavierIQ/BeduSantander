@@ -1,20 +1,35 @@
 body{
+
     background-color: #025157;
 }
 
 h1 {
+    text-align: center;
     color: #8b8b8bcc;
   }
 
 p{
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: antiquewhite;
     color: #46484c;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 label{
     color: #ffffff;
 }
 
+
+
 button{
+    border-radius: 10px;
     background-color: #025157;
     color: #ffffff;
 }
