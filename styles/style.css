@@ -1,12 +1,12 @@
-body{
 
-    background-color: #025157;
+body{
+    background-color: #fffbf7;
 }
 
 h1 {
     text-align: center;
     color: #8b8b8bcc;
-  }
+}
 
 p{
     text-align: center;
@@ -22,14 +22,34 @@ img{
     margin-right: auto;
 }
 
-label{
-    color: #ffffff;
-}
-
-
-
 button{
     border-radius: 10px;
     background-color: #025157;
     color: #ffffff;
 }
+
+.header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+li {
+    display: inline;
+}
+
+.header > * {
+    display: inline-block;
+}
+
+.logo {
+    width: 15%;
+  }
+  
+  .navbar {
+    width: 70%;
+  }
+  
+  .actions {
+    width: 15%;
+  }
